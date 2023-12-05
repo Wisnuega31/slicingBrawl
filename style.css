@@ -1,0 +1,218 @@
+*,
+html {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin-left: 16%;
+    margin-right: 14%;
+    font-family: DM Sans;
+}
+
+/* style header */
+header {
+    width: 100%;
+    height: 4rem;
+    margin-left: 0;
+    background-color: white;
+}
+
+.navbar {
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar img {
+    width: 110px;
+    height: 30px;
+}
+
+.navbar ul {
+    margin: 0;
+    font-size: .8rem;
+    /* font-family: ; */
+}
+
+.home {
+    color: rgb(66, 11, 247);
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 1rem;
+    justify-content: center;
+    font-family: DM Sans;
+}
+
+.navbar ul li img {
+    width: 1rem;
+    height: .6rem;
+    color: rgb(66, 11, 247);
+}
+
+/* akhir style header */
+
+/* style content */
+main {
+    background-color: honeydew;
+}
+
+/* style content pertama*/
+.content-1 {
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: DM Sans;
+}
+
+.text-content-1 b {
+    font-size: 350%;
+}
+
+.text-content-1 p {
+    font-size: 130%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: rgb(160, 159, 159);
+}
+
+.text-content-1 button {
+    font-size: .7rem;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    padding-left: 1rem;
+    padding-right: 7rem;
+    border-radius: 5px;
+    background-color: rgb(66, 11, 247);
+    color: white;
+}
+
+.content-1 img {
+    width: 27rem;
+}
+
+/* akhir style content pertama*/
+
+/* style line pertama */
+.line-1 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 1rem;
+    background-color: rgb(255, 179, 0);
+    font-family: DM Sans;
+}
+
+.edukasi {
+    display: flex;
+    justify-content: space-between;
+}
+
+.edukasi span {
+    display: flex;
+    align-items: center;
+    font-size: 110%;
+}
+
+.edukasi span img {
+    width: 3rem;
+    height: 3.5rem;
+}
+
+.edukasi span div {
+    margin-left: 1rem;
+}
+
+.edukasi span div p {
+    font-size: 80%;
+}
+
+/* akhir style line pertama */
+
+/* style content kedua */
+.nav-populer {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 2rem; */
+    margin-top: 5rem;
+}
+
+.nav-populer ul li {
+    display: inline;
+    margin: .7rem;
+    color: rgb(160, 159, 159);
+}
+
+.nav-populer ul .Javascript {
+    color: black;
+    padding: .6rem;
+}
+
+.content-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.content-2 img {
+    width: 11rem;
+}
+
+.content-2 .tulisan {
+    margin-left: 1.5rem;
+}
+
+.content-2 span div .name {
+    font-size: .8rem;
+    color: rgb(66, 11, 247);
+}
+
+.card {
+    display: flex;
+}
+
+.card div {
+    display: flex;
+    margin-top: 1rem;
+    margin-right: .8rem;
+}
+
+.card img {
+    width: .7rem;
+}
+
+/* akhir style content kedua */
+
+/* style garis kedua */
+.line-2{
+    margin-top: 3rem;
+    background-color: rgb(250, 233, 236);
+}
+.content-line-2{
+    display: flex;
+    align-items: center;
+    
+}
+.content-line-2 img{
+    width: 10rem;
+    margin-right: 4rem;
+}
+.content-line-2 div{
+    font-size: 200%;
+    margin-right: 4rem;
+}
+.content-line-2 button{
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    background-color:rgb(66, 11, 247) ;
+    color: white;
+    border-radius: 5px;
+}
+/* akhir style garis kedua */
+/* akhir style content*/
